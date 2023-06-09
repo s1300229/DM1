@@ -4,7 +4,13 @@
 
 int main(){
 int dc1,dc2;
-
+char str[10];
+  
+  printf("What is your name?\n");
+  printf(">");
+  scanf("%s",str);
+  printf("Hellow, %s!\n",str);
+  
 printf("Rolling the dice...\n");
 srand(time(NULL));
 dc1 = rand() % 6 + 1;
