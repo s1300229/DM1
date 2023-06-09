@@ -18,11 +18,11 @@ dc2 = rand() % 6 + 1;
 
 printf("Dice 1: %d\n",dc1);
 printf("Dice 2: %d\n",dc2);
-printf("total value: %d\n",dc1 + dc2);
+printf("Total value: %d\n",dc1 + dc2);
 
   if(dc1 + dc2 > 7){
-printf("%You won!\n);
+printf("%s won!\n",str);
        }
-       else printf("%You lost!\n");
+       else printf("%s lost!\n",str);
 return 0;
 }
